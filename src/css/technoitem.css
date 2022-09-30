@@ -1,0 +1,29 @@
+.card {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: rgb(235, 242, 246);
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em 0;
+}
+
+.card-item-title {
+  margin: 0.25em 0;
+  color: rgb(72, 72, 72);
+}
+
+.btn-delete {
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: #ad3a31;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
